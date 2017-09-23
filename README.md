@@ -1,4 +1,4 @@
-Project Description - Restaurant Automation
+<h1>Project Description - Restaurant Automation</h1>
 
 The goal for this project is to introduce automation in privately-owned restaurants, that is, small- to medium-sized establishments. Typical problems restaurant personnel are facing include: 
 • Coordination of their work activities 
