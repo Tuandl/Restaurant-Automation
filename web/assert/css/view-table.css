@@ -1,0 +1,52 @@
+.section.table-list {
+    margin: 10px;
+}
+
+.table-list .item {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    margin-bottom: 30px;
+    width: 300px;
+    margin-left: -18px;
+}
+
+@media screen and (min-width:768px) {
+    .table-list .item {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .overview > div > div:nth-child(1){
+        padding: 0px;
+    }
+}
+
+.available {
+    background-color: #ecffe8;
+}
+
+.order {
+    background-color: #fff9d3;
+}
+
+.dirty {
+    background-color: #fcdbdb;
+}
+
+.serving {
+    background-color: #f8e8ff;
+}  
+
+.badge.available{
+    color: #8c8c8c;
+}
+.badge.dirty{
+    color: #8c8c8c;
+}
+.badge.order{
+    color: #8c8c8c;
+}
+.badge.serving{
+    color: #8c8c8c;
+}

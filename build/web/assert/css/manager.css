@@ -1,0 +1,9 @@
+.section:nth-of-type(2){
+    margin: 20px;  
+    font-size: large;
+}
+
+.options .form-group{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}

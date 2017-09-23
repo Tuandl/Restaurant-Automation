@@ -1,0 +1,23 @@
+Servlet context value:
+  - TABLE-LIST
+  - FOOD-LIST
+  - ORDER-LIST
+AddOrderDetail(tableId,foodId)
+ChangeTableStatus(tableId,status)
+ChooseToCook(OrderId,OrderDetailCode)-> COOKING-LIST (sessionscope)
+CreateOrder(tableId)
+DeleteOrderDetail(tableId,foodId)
+DoneCokking(OrderId,OrderDetailCode)
+GetWaitingOrderDetail() -> WAITING-LIST
+InitAction() -> init khi moi mo server
+LoadTableByPriority() -> TABLE-LIST (request scope)
+LoginAction(username) -> id,name(sessionscope)
+ServeFood(OrderId,OrderDetailCode)
+getCookedFoodList() -> COOKED-LIST
+CreateBill(orderId) -> BILL (list,requestscope) ,TOTAL(int,requestscope)
+CheckOut(orderId)
+
+
+*Update :
+ChangeTableStatus -> cap nhat lai ORDERING-LIST(Notify table ordering) , DIRTY-LIST(Notify table dirty) len servlet context
+NotifyFood -> NOTIFY-LIST (list cua cookedFood cua nhung order ma thang waiter no quan ly, thong tin bao gom TableId FoodId va quantity) tren session 
